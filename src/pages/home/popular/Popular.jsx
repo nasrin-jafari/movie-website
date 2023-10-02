@@ -7,7 +7,6 @@ const Popular = () => {
   const onTabChange = (tab) => {
     setEndpoint(tab === "Movies" ? "movie" : "tv");
   };
-
   return (
     <div className="carouselSection">
       <ContentWrapper>

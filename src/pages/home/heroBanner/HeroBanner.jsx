@@ -33,7 +33,6 @@ const HeroBanner = () => {
           <Img src={background} />
         </div>
       )}
-
       <div className="opacity-layer"></div>
       <ContentWrapper>
         <div className="heroBannerContent">

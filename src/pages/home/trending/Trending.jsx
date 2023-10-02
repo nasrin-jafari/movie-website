@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useFetch from "../../../hooks/useFetch";
-import { Carousel , ContentWrapper ,SwitchTabs } from '../../../components'
+import { Carousel, ContentWrapper, SwitchTabs } from "../../../components";
 const Trending = () => {
   const [endpoint, setEndpoint] = useState("day");
   const { data, loading } = useFetch(`/trending/movie/${endpoint}`);

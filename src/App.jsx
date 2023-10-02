@@ -3,8 +3,8 @@ import { fetchDataFromApi } from "./utils/api";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getApiConfiguration, getGenres } from "./store/homeSlice";
-import Header from "./components/Header/header";
-import Footer from "./components/Footer/footer";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 import { Home, Details, SearchResult, Explore, PageNotFound } from "./pages";
 function App() {
   const dispatch = useDispatch();

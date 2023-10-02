@@ -21,7 +21,6 @@ const sortbyData = [
   { value: "primary_release_date.asc", label: "Release Date Ascending" },
   { value: "original_title.asc", label: "Title (A-Z)" },
 ];
-
 const Explore = () => {
   const [data, setData] = useState(null);
   const [pageNum, setPageNum] = useState(1);
@@ -56,7 +55,6 @@ const Explore = () => {
       }
     );
   };
-
   useEffect(() => {
     filters = {};
     setData(null);
